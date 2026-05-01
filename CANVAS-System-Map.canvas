@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {"id": "eclipse", "x": 400, "y": 100, "width": 200, "height": 80, "type": "text", "text": "🌑 Eclipse\nMaster System"},
+    {"id": "openclaw", "x": 200, "y": 250, "width": 180, "height": 80, "type": "text", "text": "⚙️ OpenClaw\nGateway"},
+    {"id": "discord", "x": 600, "y": 250, "width": 180, "height": 80, "type": "text", "text": "💬 Discord\nPrimary Channel"},
+    {"id": "voice", "x": 600, "y": 400, "width": 180, "height": 80, "type": "text", "text": "🎙️ Voice Bot\nTalk-to-Eclipse"},
+    {"id": "devhouse", "x": 100, "y": 450, "width": 200, "height": 100, "type": "file", "file": "projects/DevHouseAI/business-overview.md"},
+    {"id": "onetime", "x": 350, "y": 450, "width": 200, "height": 100, "type": "file", "file": "projects/OneTimeStudios/business-overview.md"},
+    {"id": "songspl", "x": 600, "y": 450, "width": 200, "height": 100, "type": "file", "file": "projects/SongSplit/business-overview.md"},
+    {"id": "cron", "x": 200, "y": 400, "width": 160, "height": 60, "type": "text", "text": "⏰ Cron Jobs\n7 scheduled"},
+    {"id": "monitor", "x": 200, "y": 150, "width": 160, "height": 60, "type": "text", "text": "📊 Monitor\nPort 3030"},
+    {"id": "memory", "x": 400, "y": 250, "width": 160, "height": 60, "type": "text", "text": "🧠 Memory\nObsidian Vault"}
+  ],
+  "edges": [
+    {"fromNode": "eclipse", "fromSide": "bottom", "toNode": "openclaw", "toSide": "top"},
+    {"fromNode": "eclipse", "fromSide": "bottom", "toNode": "discord", "toSide": "top"},
+    {"fromNode": "eclipse", "fromSide": "bottom", "toNode": "memory", "toSide": "top"},
+    {"fromNode": "discord", "fromSide": "bottom", "toNode": "voice", "toSide": "top"},
+    {"fromNode": "openclaw", "fromSide": "bottom", "toNode": "cron", "toSide": "top"},
+    {"fromNode": "openclaw", "fromSide": "right", "toNode": "monitor", "toSide": "left"},
+    {"fromNode": "devhouse", "fromSide": "top", "toNode": "openclaw", "toSide": "bottom"},
+    {"fromNode": "onetime", "fromSide": "top", "toNode": "eclipse", "toSide": "bottom"},
+    {"fromNode": "songspl", "fromSide": "top", "toNode": "eclipse", "toSide": "bottom"}
+  ]
+}
