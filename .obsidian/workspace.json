@@ -18,7 +18,7 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DECISIONS"
+              "title": "QUICK-STATUS"
             }
           }
         ]
@@ -156,6 +156,11 @@
   },
   "active": "b63c419a5c77bdf5",
   "lastOpenFiles": [
+    "TASKS.md",
+    "meetings/2026-05-01-Acme-Discovery.md",
+    "PROJECT-PIPELINE.md",
+    "CRM-DASHBOARD.md",
+    "scripts/capture.js",
     "memory/INDEX.md",
     "memory/SYSTEM_STATE_2026-04-14.md",
     "memory/ARCHIVED-mission-control.md",
@@ -186,7 +191,6 @@
     "knowledge/agent-zero/docs/res/usage/api-int/api-int-4-secrets-setting.png",
     "knowledge/agent-zero/docs/res/usage/tasks",
     "knowledge/agent-zero/docs/res/usage/projects",
-    "knowledge/agent-zero/docs/res/usage/api-int",
     "knowledge/agent-zero/docs/setup/vps-deployment.md",
     "knowledge/agent-zero/docs/setup/installation.md",
     "knowledge/agent-zero/docs/setup/dev-setup.md",
@@ -198,10 +202,6 @@
     "knowledge/agent-zero/docs/developer/architecture.md",
     "knowledge/agent-zero/docs/guides/usage.md",
     "knowledge/agent-zero/docs/guides/troubleshooting.md",
-    "knowledge/agent-zero/docs/guides/projects.md",
-    "knowledge/agent-zero/docs/guides/mcp-setup.md",
-    "knowledge/agent-zero/docs/guides/api-integration.md",
-    "knowledge/agent-zero/docs/guides/contribution.md",
-    "knowledge/agent-zero/docs/guides/a2a-setup.md"
+    "knowledge/agent-zero/docs/guides/projects.md"
   ]
 }

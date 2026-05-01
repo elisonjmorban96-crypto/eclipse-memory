@@ -6,7 +6,36 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#client",
+      "color": {
+        "a": 1,
+        "rgb": 44783
+      }
+    },
+    {
+      "query": "tag:#meeting",
+      "color": {
+        "a": 1,
+        "rgb": 16032831
+      }
+    },
+    {
+      "query": "tag:#decision",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#daily-log",
+      "color": {
+        "a": 1,
+        "rgb": 65535
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
