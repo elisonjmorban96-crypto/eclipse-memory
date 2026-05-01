@@ -11,13 +11,14 @@
             "id": "b63c419a5c77bdf5",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "daily-logs/Untitled.base",
-                "viewName": "Table"
+                "file": "system/DECISIONS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "DECISIONS"
             }
           }
         ]
@@ -47,7 +48,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a125adde4c3b48df",
@@ -154,7 +156,15 @@
   },
   "active": "b63c419a5c77bdf5",
   "lastOpenFiles": [
+    "memory/INDEX.md",
+    "memory/SYSTEM_STATE_2026-04-14.md",
+    "memory/ARCHIVED-mission-control.md",
+    "memory/2026-04-14.md",
+    "memory/2026-04-29.md",
+    "memory/2026-04-30.md",
+    "Untitled.canvas",
     "daily-logs/Untitled.base",
+    "memory/2026-01-30-1207.md",
     "knowledge/agent-zero/prompts/fw.topic_summary.msg.md",
     "knowledge/agent-zero/docs/developer/websockets.md",
     "README.md",
@@ -177,7 +187,6 @@
     "knowledge/agent-zero/docs/res/usage/tasks",
     "knowledge/agent-zero/docs/res/usage/projects",
     "knowledge/agent-zero/docs/res/usage/api-int",
-    "knowledge/agent-zero/docs/res/setup/settings",
     "knowledge/agent-zero/docs/setup/vps-deployment.md",
     "knowledge/agent-zero/docs/setup/installation.md",
     "knowledge/agent-zero/docs/setup/dev-setup.md",
@@ -193,13 +202,6 @@
     "knowledge/agent-zero/docs/guides/mcp-setup.md",
     "knowledge/agent-zero/docs/guides/api-integration.md",
     "knowledge/agent-zero/docs/guides/contribution.md",
-    "knowledge/agent-zero/docs/guides/a2a-setup.md",
-    "knowledge/agent-zero/docs/quickstart.md",
-    "knowledge/agent-zero/docs/README.md",
-    "knowledge/agent-zero/prompts/memory.solutions_sum.sys.md",
-    "knowledge/agent-zero/prompts/memory.solutions_query.sys.md",
-    "knowledge/agent-zero/prompts/memory.recall_delay_msg.md",
-    "knowledge/agent-zero/prompts/memory.memories_sum.sys.md",
-    "Untitled.canvas"
+    "knowledge/agent-zero/docs/guides/a2a-setup.md"
   ]
 }

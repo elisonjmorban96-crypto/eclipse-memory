@@ -1,3 +1,11 @@
+---
+status: maintenance
+priority: low
+tags: [elisoninc, maintenance]
+created: 2026-05-01
+last-updated: 2026-05-01
+---
+
 # ElisonInc — Business Overview
 
 ## What It Is

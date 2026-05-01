@@ -1,19 +1,18 @@
-# DevHouse AI — Business Overview
+---
+status: active
+priority: high
+tags: [devhouseai, active]
+created: 2026-05-01
+last-updated: 2026-05-01
+next-action: Deploy website + GHL integration
+---
 
-## What We Do
-<!-- Brief description of DevHouse AI's core offering -->
+---
+status: active
+priority: high
+tags: [devhouseai, onetimestudios, songsplit]
+created: 2026-05-01
+last-updated: 2026-05-01
+next-action: Deploy website + GHL integration
+---
 
-## Target Market
-<!-- Ideal customer profile, industries, company size -->
-
-## Value Proposition
-<!-- Why customers choose DevHouse AI -->
-
-## Pricing
-<!-- Packages, tiers, billing model -->
-
-## Key Differentiators
-<!-- What sets DevHouse AI apart from competitors -->
-
-## Current Priorities
-<!-- Active initiatives, launches, or pivots -->
