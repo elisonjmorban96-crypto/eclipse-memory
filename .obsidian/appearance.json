@@ -1,0 +1,13 @@
+{
+  "accentColor": "#6366f1",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "eclipse-dashboard"
+  ],
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "JetBrains Mono, Menlo, Monaco, Courier New, monospace",
+  "textFontFamily": "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+  "translucency": false,
+  "theme": "obsidian"
+}

@@ -1,0 +1,139 @@
+# Eclipse Memory - Agent Configuration
+
+system:
+  name: "Eclipse Zero"
+  version: "1.0.0"
+  port: 50001
+  host: "0.0.0.0"
+  
+  # Merged prompt system
+  prompts:
+    main: "config/system_prompts/system.main.md"
+    components:
+      role: "config/system_prompts/system.role.md"
+      environment: "config/system_prompts/system.environment.md"
+      communication: "config/system_prompts/system.communication.md"
+      solving: "config/system_prompts/system.solving.md"
+      tips: "config/system_prompts/system.tips.md"
+
+models:
+  default: "openai/gpt-5"
+  fallbacks:
+    - "anthropic/claude-sonnet-4-20250514"
+    - "kimi-coding/k2p5"
+  
+  providers:
+    openai:
+      api_key: "${OPENAI_API_KEY}"
+      base_url: "https://api.openai.com/v1"
+    
+    anthropic:
+      api_key: "${ANTHROPIC_API_KEY}"
+      base_url: "https://api.anthropic.com"
+    
+    kimi:
+      api_key: "${KIMI_API_KEY}"
+      base_url: "https://api.kimi.com/coding"
+
+tools:
+  enabled: true
+  
+  available:
+    - name: "Shell"
+      description: "Execute bash commands"
+      enabled: true
+    
+    - name: "ReadFile"
+      description: "Read file contents"
+      enabled: true
+    
+    - name: "WriteFile"
+      description: "Write/create files"
+      enabled: true
+    
+    - name: "StrReplaceFile"
+      description: "Edit files with string replacement"
+      enabled: true
+    
+    - name: "Glob"
+      description: "Find files matching patterns"
+      enabled: true
+    
+    - name: "Grep"
+      description: "Search file contents with regex"
+      enabled: true
+    
+    - name: "Task"
+      description: "Spawn sub-agents for parallel work"
+      enabled: true
+    
+    - name: "SearchWeb"
+      description: "Search the internet"
+      enabled: true
+    
+    - name: "FetchURL"
+      description: "Fetch web page content"
+      enabled: true
+
+memory:
+  enabled: true
+  
+  stores:
+    json:
+      path: "memory/json"
+      max_memories: 10000
+    
+    vector:
+      path: "memory/vector"
+      embedding_model: "text-embedding-3-small"
+      dimensions: 1536
+    
+    sqlite:
+      path: "memory/sqlite/eclipse.db"
+
+integrations:
+  whatsapp:
+    enabled: true
+    port: 50003
+    
+    # Lead routing
+    lead_routing:
+      enabled: true
+      google_sheet: "${WHATSAPP_LEAD_SHEET_ID}"
+      email_recipient: "${LEAD_EMAIL_RECIPIENT}"
+      email_mode: "draft"  # or "send"
+  
+  web:
+    enabled: true
+    port: 50001
+    
+    # CORS settings
+    cors:
+      origins: ["http://localhost:50001", "https://eclipse-memory.vercel.app"]
+      credentials: true
+  
+  cli:
+    enabled: true
+
+# Agent Zero compatibility
+agent_zero:
+  enabled: true
+  
+  # Load Agent Zero patterns
+  knowledge_path: "knowledge/agent-zero"
+  
+  # Sub-agent spawning
+  max_sub_agents: 5
+  sub_agent_timeout: 300
+  
+  # Memory consolidation
+  auto_consolidate: true
+  consolidation_interval: 3600  # seconds
+
+# Logging
+logging:
+  level: "INFO"
+  format: "json"
+  output: "logs/eclipse.log"
+  max_size: "100MB"
+  max_files: 5

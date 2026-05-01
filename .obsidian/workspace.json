@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "918be3ec54187fcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ab03fb538fb39dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b63c419a5c77bdf5",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "daily-logs/Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2818c6ffe11a4083",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fab044bb583d14b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8eeaa464e7275338",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a125adde4c3b48df",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4fbfd0a43cf004b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acbd26281efba9fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "8b5aa17a0d8ee64f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "lucide-ghost",
+              "title": "outgoing-link"
+            }
+          },
+          {
+            "id": "9a79b4c0766356c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "tag"
+            }
+          },
+          {
+            "id": "a7eb538935fbd7ce",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "38bed60bc52983b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b63c419a5c77bdf5",
+  "lastOpenFiles": [
+    "daily-logs/Untitled.base",
+    "knowledge/agent-zero/prompts/fw.topic_summary.msg.md",
+    "knowledge/agent-zero/docs/developer/websockets.md",
+    "README.md",
+    "scripts/migrate-to-50001.sh",
+    "scripts",
+    "requirements.txt",
+    "memory/vector",
+    "memory/sqlite",
+    "memory/json",
+    "knowledge/agent-zero/docs/res/usage/tasks/scheduler-1.png",
+    "knowledge/agent-zero/docs/res/usage/tasks/edit-task.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-gitprojects-clone.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-git-projects-tree.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-first-ops.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-desc-and-instructions.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-creation.png",
+    "knowledge/agent-zero/docs/res/usage/projects/projects-activate-project.png",
+    "knowledge/agent-zero/docs/res/usage/api-int/api-int-5-finish.png",
+    "knowledge/agent-zero/docs/res/usage/api-int/api-int-4-secrets-setting.png",
+    "knowledge/agent-zero/docs/res/usage/tasks",
+    "knowledge/agent-zero/docs/res/usage/projects",
+    "knowledge/agent-zero/docs/res/usage/api-int",
+    "knowledge/agent-zero/docs/res/setup/settings",
+    "knowledge/agent-zero/docs/setup/vps-deployment.md",
+    "knowledge/agent-zero/docs/setup/installation.md",
+    "knowledge/agent-zero/docs/setup/dev-setup.md",
+    "knowledge/agent-zero/docs/developer/notifications.md",
+    "knowledge/agent-zero/docs/developer/mcp-configuration.md",
+    "knowledge/agent-zero/docs/developer/extensions.md",
+    "knowledge/agent-zero/docs/developer/contributing-skills.md",
+    "knowledge/agent-zero/docs/developer/connectivity.md",
+    "knowledge/agent-zero/docs/developer/architecture.md",
+    "knowledge/agent-zero/docs/guides/usage.md",
+    "knowledge/agent-zero/docs/guides/troubleshooting.md",
+    "knowledge/agent-zero/docs/guides/projects.md",
+    "knowledge/agent-zero/docs/guides/mcp-setup.md",
+    "knowledge/agent-zero/docs/guides/api-integration.md",
+    "knowledge/agent-zero/docs/guides/contribution.md",
+    "knowledge/agent-zero/docs/guides/a2a-setup.md",
+    "knowledge/agent-zero/docs/quickstart.md",
+    "knowledge/agent-zero/docs/README.md",
+    "knowledge/agent-zero/prompts/memory.solutions_sum.sys.md",
+    "knowledge/agent-zero/prompts/memory.solutions_query.sys.md",
+    "knowledge/agent-zero/prompts/memory.recall_delay_msg.md",
+    "knowledge/agent-zero/prompts/memory.memories_sum.sys.md",
+    "Untitled.canvas"
+  ]
+}
